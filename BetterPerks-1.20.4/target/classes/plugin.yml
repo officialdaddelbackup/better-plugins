@@ -1,0 +1,8 @@
+name: BetterPerks
+version: 1.0
+main: net.daddel.betterperks.Main
+api-version: '1.20'
+website: https://github.com/officialdaddel
+author: Daddel
+commands:
+  perks:

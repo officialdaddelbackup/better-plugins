@@ -1,0 +1,81 @@
+# +-----------------------------------------------------------+
+# |               BetterPerks by officialdaddel               |
+# |                    CONFIG VERSION: 1.0                    |
+# |                                                           |
+# | -> DISCORD: https://dsc.gg/better-plugins                 |
+# | -> BUG REPORT: https://dsc.gg/better-plugins              |
+# | -> COLOR CODES: http://tinyurl.com/mc-ccodes              |
+# +-----------------------------------------------------------+
+
+# +----------------------gui description----------------------+
+# | How does it work:                                         |
+# | => title: change the title of the gui                     |
+# | => enable: active or deactive placeholder/clase           |
+# |     -> only use true or false!                            |
+# | => displayname: change the display name                   |
+# | => slot: set the slot in the gui                          |
+# +----------------------gui description----------------------+
+gui:
+  title: "&9Perks"
+  placeholder:
+    enable: false
+  close:
+    enable: true
+    displayname: "&cClose"
+    slot: 40
+
+
+# +----------------------perk description----------------------+
+# | You can't add perks or remove perks!                       |
+# | Change the slot to -1 to disable the perk!                 |
+# | How does it work:                                          |
+# | => material: change the material in the gui                |
+# | => displayname: change the display name of the perk        |
+# | => price: set the price of the perk                        |
+# | => slot: set the slot in the gui                           |
+# +----------------------perk description----------------------+
+perks:
+  perk1:
+    material: GOLDEN_PICKAXE
+    displayname: "&aHaste"
+    price: 5000
+    slot: 10
+  perk2:
+    material: LEATHER_BOOTS
+    displayname: "&aSpeed"
+    price: 5000
+    slot: 12
+  perk3:
+    material: GOLDEN_BOOTS
+    displayname: "&cJumpboost"
+    price: 2500
+    slot: 14
+  perk4:
+    material: RED_DYE
+    displayname: "&4Regeneration"
+    price: 10000
+    slot: 16
+
+# +--------------------------buy description--------------------------+
+# | This allows you to ask the player if he's sure to buy the perk    |
+# | How does it work:                                                 |
+# | => placeholder: active or deactive placeholder                    |
+# | => enable: active or deactive the feature                         |
+# |     -> only use true or false!                                    |
+# | => title: set the title of the buy gui                            |
+# | => material: change the material in the gui                       |
+# | => displayname: change the displayname                            |
+# | => description: set the description in the gui                    |
+# +--------------------------buy description--------------------------+
+buy:
+  enable: true
+  placeholder: false
+  title: "&aBuy"
+  confirm:
+    material: GREEN_WOOL
+    displayname: "&aAccept"
+    description: "&7&oAccept the purchase"
+  cancel:
+    material: RED_WOOL
+    displayname: "&cCancel"
+    description: "&7&oCancel the purchase"
